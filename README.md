@@ -1,18 +1,18 @@
 # MQTTfy Dashboard for web
 Your Unified Dashboard: Visualize MQTT, API &amp; Bluetooth Data with an AI Assistant. In Any Language.
- [MQTTfy](https://mqtt-ble.com) provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT Bluetooth Rest API-enabled devices and applications. Perfect for IoT, IIoT, and home automation.
+ [MQTTfy](https://mqttfy.com) provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT Bluetooth Rest API-enabled devices and applications. Perfect for IoT, IIoT, and home automation.
  
-[The Internet of Things (IoT)](https://mqtt-ble.com) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols —[MQTT](https://mqtt-ble.com),[REST API](https://mqtt-ble.com), and [Bluetooth](https://mqtt-ble.com) — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
+[The Internet of Things (IoT)](https://mqttfy.com) landscape has exploded with a diverse array of protocols, devices, and communication methods. Managing multiple devices across different protocols —[MQTT](https://mqttfy.com),[REST API](https://mqttfy.com), and [Bluetooth](https://mqttfy.com) — has traditionally required separate applications and complex integrations. MQTTfy unified dashboard emerges as a game-changing solution that consolidates all these communication channels into a single, powerful, and intuitive platform for real-time monitoring, control, and visualization of IoT devices.
 In this comprehensive guide, we’ll explore how MQTTfy revolutionizes IoT device management through its multi-protocol support, extensive widget library, custom JavaScript capabilities, multilingual interface, and cutting-edge Web Bluetooth API integration for smart home automation.
 
 Understanding the Need for Unified IoT Dashboards
-Modern IoT ecosystems are inherently complex, with devices communicating through various protocols. MQTT ([Message Queuing Telemetry Transport](https://mqtt-ble.com)) has become the backbone of industrial IoT due to its lightweight nature and [publish-subscribe](https://mqtt-ble.com) architecture. Meanwhile, REST APIs provide flexibility for web-based integrations, and Bluetooth Low Energy (BLE) enables direct device-to-device communication for smart home applications. Managing these disparate systems traditionally required multiple applications, leading to fragmented workflows and reduced operational efficiency.​
+Modern IoT ecosystems are inherently complex, with devices communicating through various protocols. MQTT ([Message Queuing Telemetry Transport](https://mqttfy.com)) has become the backbone of industrial IoT due to its lightweight nature and [publish-subscribe](https://mqttfy.com) architecture. Meanwhile, REST APIs provide flexibility for web-based integrations, and Bluetooth Low Energy (BLE) enables direct device-to-device communication for smart home applications. Managing these disparate systems traditionally required multiple applications, leading to fragmented workflows and reduced operational efficiency.​
 
 ## MQTTfy addresses this challenge by providing a unified interface that seamlessly integrates all major IoT communication protocols. This consolidation eliminates the need for switching between multiple dashboards, reduces training overhead, and provides a single source of truth for all IoT data.​
 
-Core Features of [MQTTfy Unified Dashboard](https://mqtt-ble.com)
+Core Features of [MQTTfy Dashboard](https://mqttfy.com)
 Multi-Protocol Support: MQTT, REST API, and Bluetooth Integration
-The foundation of MQTTfy’s power lies in its comprehensive protocol support. The platform connects to MQTT brokers using industry-standard connections, supporting all three Quality of Service ([QoS](https://mqtt-ble.com)) levels — QoS 0 (at most once), QoS 1 (at least once), and QoS 2 (exactly once) — ensuring reliable message delivery based on application requirements.​
+The foundation of MQTTfy’s power lies in its comprehensive protocol support. The platform connects to MQTT brokers using industry-standard connections, supporting all three Quality of Service ([QoS](https://mqttfy.com)) levels — QoS 0 (at most once), QoS 1 (at least once), and QoS 2 (exactly once) — ensuring reliable message delivery based on application requirements.​
 
 ## For REST API integration, MQTTfy enables seamless data exchange between web services and IoT devices. This bidirectional communication allows the central dashboard to send control commands through REST API interfaces while receiving real-time data through MQTT protocols. This hybrid approach combines the real-time performance of MQTT with the flexibility and wide compatibility of REST APIs.​
 
@@ -74,7 +74,7 @@ Bidirectional Communication: Supports both device-to-cloud telemetry and cloud-t
 Quality of Service Levels: Three QoS options ensure messages are delivered with the appropriate reliability for each use case​
 Persistent Sessions: Clients can reconnect and receive messages sent while offline​
 Last Will and Testament: Automatic notifications when devices disconnect unexpectedly​
-MQTT in [Industrial IoT](https://mqtt-ble.com) Applications
+MQTT in [Industrial IoT](https://mqttfy.com) Applications
 In industrial settings, MQTT has become the de facto standard for machine-to-machine communication. MQTTfy leverages MQTT to enable:
 ​Real-Time Machine Monitoring: Track machinery status, sensor readings (temperature, pressure, vibration), and production line performance with sub-second latency.​
 Predictive Maintenance: Collect continuous data from industrial equipment to predict failures, schedule maintenance proactively, and reduce downtime. For example, vibration sensors on motor bearings can publish data via MQTT, triggering alerts when patterns indicate impending failure.​
@@ -168,6 +168,7 @@ By breaking down protocol barriers and providing a truly unified interface, MQTT
 
 
 ## 🚀 How to Run in docker free full version
+[MQTTfy on Dockerhub -Run it](https://hub.docker.com/r/mqttfy/mqttfy-dashboard)
 To start the dashboard immediately, run the following command in your terminal:
 
 ```bash
