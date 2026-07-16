@@ -1,4 +1,4 @@
-# MQTTfy
+# MQTTfy Dashboard for web
 Your Unified Dashboard: Visualize MQTT, API &amp; Bluetooth Data with an AI Assistant. In Any Language.
  [MQTTfy](https://mqtt-ble.com) provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT Bluetooth Rest API-enabled devices and applications. Perfect for IoT, IIoT, and home automation.
  
