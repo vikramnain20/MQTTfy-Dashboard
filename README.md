@@ -21,7 +21,7 @@ The foundation of MQTTfy’s power lies in its comprehensive protocol support. T
 The Web Bluetooth API works through a discovery process that identifies available BLE devices and services, then provides access to the GATT (Generic Attribute Profile) for reading and writing data to device characteristics. MQTTfy leverages this technology to create a seamless experience where users can scan for nearby devices, establish secure connections, and control them — all within a single dashboard interface.​
 
 ## Extensive Widget Library for Data Visualization
-MQTTfy provides a comprehensive collection of pre-built widgets designed for diverse visualization and control needs. The widget library includes:​
+[MQTTfy](https://mqttfy.com/mqttfy-dashboard) provides a comprehensive collection of pre-built widgets designed for diverse visualization and control needs. The widget library includes:​
 
 Charts and Graphs: Line charts, bar graphs, pie charts, and real-time streaming charts for visualizing time-series sensor data
 Gauges and Indicators: Circular gauges, linear meters, and LED indicators for displaying temperature, pressure, speed, and other measurements
@@ -33,7 +33,7 @@ Iframe Widgets: Embed external web pages directly into your dashboard for extend
 Each widget is fully configurable, allowing users to customize colors, thresholds, update intervals, and data sources to match their specific requirements. The dashboard supports multiple layouts optimized for different screen sizes, from large 4K displays in control rooms to mobile devices for field operators.​
 
 
-MQTTfy Home automation with ESP32 Microcontroller
+[MQTTfy](https://mqttfy.com/mqttfy-dashboard) [Home automation with ESP32](https://mqttfy.com/resources/getting-started-with-esp32-and-mqtt) Microcontroller   
 Custom JavaScript Widgets: Unlimited Flexibility
 While the pre-built widget library covers most common use cases, MQTTfy recognizes that every IoT application has unique visualization needs. The platform’s custom JavaScript widget capability empowers developers to create any type of widget using HTML, CSS, and JavaScript.​
 
@@ -84,7 +84,7 @@ By building on MQTT’s robust foundation, MQTTfy provides industrial organizati
 Web Bluetooth API: Revolutionizing Smart Home Automation
 One of MQTTfy’s most innovative features is its integration of the Web Bluetooth API for smart home automation. This technology represents a paradigm shift in how users interact with Bluetooth-enabled smart home devices.​
 
-How Web Bluetooth Works in MQTTfy
+How Web Bluetooth Works in [MQTTfy](https://mqttfy.com/mqttfy-dashboard)
 The Web Bluetooth API is a JavaScript interface that enables web applications to discover, connect to, and communicate with Bluetooth Low Energy devices directly from a browser. The process works through several stages:​
 
 Device Discovery: When a user initiates a connection, MQTTfy requests access to nearby Bluetooth devices using the navigator.bluetooth.requestDevice() method.​
@@ -112,7 +112,7 @@ Static dashboards display data from predetermined devices and variables. These a
 Dynamic dashboards include a device selector that allows users to switch between different devices or groups without reconfiguring widgets. All widgets automatically update to display data from the selected device, making these perfect for managing fleets of similar equipment or multi-tenant installations.​
 
 Dashboard Design Best Practices
-When creating dashboards in MQTTfy , consider these proven design principles:​
+When creating dashboards in [MQTTfy](https://mqttfy.com/mqttfy-dashboard) , consider these proven design principles:​
 Information Hierarchy: Place critical information and alerts at the top of the dashboard, with detailed charts and historical data below.​
 Drill-Down Navigation: Design dashboards with multiple levels — start with system overview, then allow users to click through to subsystems and individual devices.​
 Responsive Layouts: Configure separate layouts for desktop and mobile viewing to ensure optimal display on all devices.​
@@ -130,7 +130,7 @@ Real-World Applications and Use Cases
 MQTTfy serves diverse industries with specific IoT monitoring and control requirements:
 
 Manufacturing and Industry 4.0
-In smart factories, MQTTfy connects PLCs, SCADA systems, industrial sensors, and enterprise applications (MES, ERP) to provide unified visibility across the production environment. Real-time dashboards display OEE (Overall Equipment Effectiveness), machine status, quality metrics, and energy consumption. When anomalies occur, the system automatically alerts maintenance teams via MQTT publish to alert topics.​
+In smart factories, [MQTTfy](https://mqttfy.com/) connects PLCs, SCADA systems, industrial sensors, and enterprise applications (MES, ERP) to provide unified visibility across the production environment. Real-time dashboards display OEE (Overall Equipment Effectiveness), machine status, quality metrics, and energy consumption. When anomalies occur, the system automatically alerts maintenance teams via MQTT publish to alert topics.​
 
 Smart Buildings and Facilities Management
 Building managers use MQTTfy to monitor HVAC systems, lighting, access control, and energy meters across multiple facilities. The platform’s ability to integrate REST APIs with MQTT streams enables connections to diverse building management systems. Web Bluetooth support allows direct connection to BLE sensors for temperature, humidity, occupancy, and air quality monitoring.​
@@ -157,7 +157,7 @@ Share and Collaborate: Export configurations, generate read-only links, and invi
 The AI Assistant: Intelligent Support
 MQTTfy includes a built-in AI chat assistant that provides contextual help, configuration guidance, and even performs data analysis. Users can ask questions like “How do I connect to my MQTT broker?” or “Show me the average temperature over the last week,” and receive immediate, actionable responses. This AI integration reduces the learning curve and accelerates dashboard development.​
 
-Conclusion: The Future of Unified IoT Management
+Conclusion: The Future of Unified [IoT Management](https://mqttfy.com/mqttfy-dashboard)
 As IoT ecosystems continue to expand in complexity and scale, the need for unified management platforms becomes increasingly critical. MQTTfy addresses this need by consolidating MQTT, REST API, and Bluetooth protocols into a single, powerful dashboard environment.
 
 The combination of extensive pre-built widgets, unlimited custom JavaScript flexibility, IoT agent protocol translation, multilingual support, and cutting-edge Web Bluetooth API integration positions MQTTfy as the comprehensive solution for IoT monitoring and control across industrial, commercial, and residential applications.​
